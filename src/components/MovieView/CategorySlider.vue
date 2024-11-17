@@ -33,17 +33,6 @@ const buttons = [
 
 const slider = ref(null);
 
-const scrollLeft = () => {
-  if (slider.value) {
-    slider.value.scrollBy({ left: -150, behavior: 'smooth' });
-  }
-};
-
-const scrollRight = () => {
-  if (slider.value) {
-    slider.value.scrollBy({ left: 150, behavior: 'smooth' });
-  }
-};
 </script>
 
 <style scoped>
